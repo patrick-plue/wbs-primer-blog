@@ -24,7 +24,7 @@ body {
 
 .header-container {
     height: 50vh; 
-    background-image: url("wbs-primer-blog/src/img/hero1.PNG");
+    background-image: url("./img/hero1.PNG");
     background-size: cover;
     background-position-x: center;
     background-repeat: no-repeat;
