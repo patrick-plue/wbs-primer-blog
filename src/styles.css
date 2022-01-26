@@ -60,7 +60,6 @@ body {
   justify-content: center;
   width: 185px;
   color: white;
-  border-radius: 7px;
   overflow: hidden;
   height: 200px;
   padding-right: 30px;
@@ -128,15 +127,16 @@ figcaption {
 }
 
 .formcontainer {
-  margin-top: 70px;
-  display: flex;
-  justify-content: center;
+  margin: 30px auto;
+  max-width: 400px;
 }
+
 .form {
-  display: flex;
-  flex-direction: column;
   box-shadow: 0 0 10px 1px black;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .form > h3 {
@@ -153,22 +153,24 @@ figcaption {
   color: #ed4f0c;
   font-weight: bolder;
   font-size: 22px;
+  margin: 0 auto 5px;
 }
 
 input,
 textarea {
+  width: 250px;
   background-color: var(--background-color);
   font-family: 'Titillium Web', sans-serif;
   font-size: 20px;
   text-align: center;
   border-radius: 5px;
-  padding: 10px;
+  padding: 15px;
   border: 1px dotted whitesmoke;
 }
 
 footer {
   padding: 1%;
-  margin-top: 4%;
+  margin-top: 1%;
   background-color: #041730;
   text-align: center;
   color: whitesmoke;
@@ -186,9 +188,5 @@ footer a {
 
   .circles img {
     margin-top: 40px;
-  }
-
-  .formcontainer {
-    margin-top: 20px;
   }
 }
