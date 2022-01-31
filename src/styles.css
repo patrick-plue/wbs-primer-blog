@@ -83,17 +83,18 @@ main p {
   text-align: justify;
 }
 
-.maintext {
+.blogentry {
   background-color: white;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px 1px black;
+  margin-bottom: 15px;
 }
 
-main h2 {
+.blogentry h2 {
   font-family: 'Patua One', cursive;
   margin-bottom: 1%;
-  font-size: 10vw;
+  font-size: 2rem;
 }
 
 hr {
