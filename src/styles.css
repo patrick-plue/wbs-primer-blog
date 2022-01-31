@@ -85,13 +85,11 @@ main {
   margin-bottom: 20px;
 }
 
-.date {
-}
-
 .date p {
   text-align: end;
-  font-size: 0.9 rem;
+  font-size: 0.85rem;
   color: grey;
+  font-style: italic;
 }
 
 .title h1 {
@@ -104,11 +102,12 @@ main p {
   line-height: 1.3rem;
   margin: 0 auto;
   text-align: justify;
+  margin: 5px 15px;
 }
 
 .blogentry {
   background-color: white;
-  padding: 20px;
+  padding: 10px 20px 20px 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px 1px black;
   margin-bottom: 15px;
@@ -208,6 +207,24 @@ footer {
 
 footer a {
   color: rgb(222, 112, 112);
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  height: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.icons i {
+  font-size: 1rem;
+}
+
+.icons a {
+  color: white;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 1150px) {
