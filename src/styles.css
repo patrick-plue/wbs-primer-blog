@@ -34,6 +34,8 @@ body {
   background-repeat: no-repeat;
   opacity: 0.95;
   box-shadow: 0px 1px 10px 1px whitesmoke;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .navigation {
@@ -77,6 +79,18 @@ main {
   margin: 2% 10%;
 }
 
+.title {
+  font-size: 8vh;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title h1 {
+  font-family: 'Patua One', cursive;
+  box-shadow: 0 0 5px ghostwhite;
+  background-color: var(--background-color3);
+}
+
 main p {
   line-height: 1.3rem;
   margin: 0 auto;
@@ -92,7 +106,6 @@ main p {
 }
 
 .blogentry h2 {
-  font-family: 'Patua One', cursive;
   margin-bottom: 1%;
   font-size: 2rem;
 }
@@ -125,6 +138,11 @@ figcaption {
   height: 275px;
   border-radius: 50%;
   box-shadow: 0 0 10px 1px black;
+  opacity: 0.9;
+}
+
+.circles img:hover {
+  opacity: 1;
 }
 
 .formcontainer {
