@@ -138,7 +138,8 @@ figure {
 figcaption {
   margin-top: 20px;
   width: 75%;
-  text-align: justify;
+  text-align: center;
+  color: rgb(94, 93, 93);
 }
 
 .circles img {
@@ -212,19 +213,16 @@ footer a {
 .icons {
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 10px;
   height: 20px;
   margin-top: 20px;
   margin-bottom: 10px;
 }
 
-.icons i {
-  font-size: 1rem;
-}
-
 .icons a {
   color: white;
   text-decoration: none;
+  font-size: 1.5rem;
 }
 
 @media only screen and (max-width: 1150px) {
