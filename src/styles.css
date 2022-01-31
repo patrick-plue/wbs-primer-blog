@@ -85,17 +85,19 @@ main {
   margin-bottom: 20px;
 }
 
+.title h1 {
+  font-family: 'Patua One', cursive;
+  box-shadow: 0 0 5px ghostwhite;
+  background-color: var(--background-color3);
+  border-radius: 5px;
+  padding: 15px;
+}
+
 .date p {
   text-align: end;
   font-size: 0.85rem;
   color: grey;
   font-style: italic;
-}
-
-.title h1 {
-  font-family: 'Patua One', cursive;
-  box-shadow: 0 0 5px ghostwhite;
-  background-color: var(--background-color3);
 }
 
 main p {
