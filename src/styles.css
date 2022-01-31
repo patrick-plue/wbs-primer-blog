@@ -1,3 +1,5 @@
+/* General */
+
 /*
  font-family: 'Maven Pro', sans-serif;
  font-family: 'Patua One', cursive;
@@ -25,6 +27,8 @@ body {
   );
   color: #29241e;
 }
+
+/* Header + Nav */
 
 .header-container {
   height: 50vh;
@@ -74,6 +78,8 @@ body {
   color: whitesmoke;
   text-shadow: 1px 1px #260d0d;
 }
+
+/* Blogposts */
 
 main {
   margin: 2% 10%;
@@ -125,6 +131,8 @@ hr {
   border: 1px dashed black;
 }
 
+/* Gallery */
+
 .circles {
   margin-top: 50px;
   display: flex;
@@ -155,6 +163,8 @@ figcaption {
 .circles img:hover {
   opacity: 1;
 }
+
+/* Form */
 
 .formcontainer {
   margin: 30px auto;
@@ -199,6 +209,8 @@ textarea {
   margin: 1px;
   border: 1px dotted whitesmoke;
 }
+
+/* Footer */
 
 footer {
   padding: 1%;
